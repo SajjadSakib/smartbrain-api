@@ -1,6 +1,6 @@
 const Clarifai =require('clarifai');
 const app = new Clarifai.App({
- apiKey: 'a08bdca0376f445e937494fe0d080c50'
+ apiKey: API_KEY
 });
 
 const imageHandler=(req,res,db)=>{
